@@ -1,0 +1,1 @@
+# template-nuxt3-vuetify3

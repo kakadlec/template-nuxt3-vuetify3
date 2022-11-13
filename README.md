@@ -1,1 +1,1 @@
-# template-nuxt3-vuetify3
+Template nuxt3-vuetify3

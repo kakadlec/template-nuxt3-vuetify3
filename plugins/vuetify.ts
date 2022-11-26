@@ -8,6 +8,11 @@ export default defineNuxtPlugin((nuxtApp) => {
     components,
     directives,
     blueprint: md3,
+    theme: {
+      themes: {
+        //Make your theme
+      },
+    },
   });
 
   nuxtApp.vueApp.use(vuetify);

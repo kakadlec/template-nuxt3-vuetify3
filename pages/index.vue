@@ -6,11 +6,15 @@
       </v-col>
     </v-row>
     <v-row class="fill-height" align="center">
-      <v-col class="text-center" v-for="n in 3" :key="n">
-        <v-card style="height: 50vh">
-          <p>Some Content</p>
+      <v-col class="text-center" v-for="post in posts" :key="post.id">
+        <v-card>
+          <h2>{{ post.title }}</h2>
         </v-card>
       </v-col>
     </v-row>
   </v-container>
 </template>
+
+<script lang="ts" setup>
+const posts = await $fetch("https://www.tabnews.com.br/api/v1/contents/kakadlec");
+</script>

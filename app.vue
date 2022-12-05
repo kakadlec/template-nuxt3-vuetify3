@@ -1,3 +1,5 @@
+<script setup lang="ts"></script>
+
 <template>
   <v-app>
     <TheHeader />
@@ -11,11 +13,7 @@
 <style>
 .main-bg {
   background: rgb(245, 228, 245);
-  background: linear-gradient(
-    0deg,
-    rgba(245, 228, 245, 1) 0%,
-    rgba(255, 255, 255, 1) 70%
-  );
+  background: linear-gradient(0deg, rgba(245, 228, 245, 1) 0%, rgba(255, 255, 255, 1) 70%);
 }
 .page-enter-active,
 .page-leave-active {

@@ -1,7 +1,13 @@
 <template>
-  <v-app-bar title="Template Nuxt3 (Vue3) + Vuetify3" border>
+  <v-app-bar color="primary">
+    <v-container>
+      <v-btn prepend-icon="mdi-folder" variant="plain" color="surface" :rounded="0" to="/"> TabNews </v-btn>
+      <v-btn variant="plain" color="surface" :rounded="0" to="/">Relevantes</v-btn>
+      <v-btn variant="plain" color="surface" :rounded="0" to="/recentes">Recentes</v-btn>
+    </v-container>
+
     <v-spacer></v-spacer>
-    <v-btn to="/">Home</v-btn>
-    <v-btn to="/about">About</v-btn>
   </v-app-bar>
 </template>
+
+<style scoped></style>
